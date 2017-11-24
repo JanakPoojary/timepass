@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int a[10],b,i;
+printf("this project is for encoding a number into a secret code \n enter the number to be encoded \n \n");
+for(i=0;i<10;i++)
+{
+scanf("%d",&a[i]);
+}
+for(b=0;b<10;b++)
+{
+a[b]=a[b]+3;
+printf("%d",&a[b]);
+}
+}
+
